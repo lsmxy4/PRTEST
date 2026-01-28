@@ -1,0 +1,28 @@
+main h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+
+}
+
+main nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+}
+
+main nav li{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    font-size: 36px;
+    font-weight: 600;
+}

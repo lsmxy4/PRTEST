@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,6 +12,50 @@ a {
 main {
     margin: auto;
     max-width: 1200px;
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+
+.inner h1{
+    display: flex;
+    justify-content: center;
+    margin: 24px ;
+}
+
+.inner nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    list-style: none;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.inner nav li{
+    border-radius: 25px;
+    padding:  8px 32px;
+    background-color: aqua;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #373737;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    margin: auto;
+    max-width: 1200px;
     padding: 100px 0;
     background-color: aliceblue;
     min-height: 100vh;
@@ -19,6 +63,7 @@ main {
 
 header {
     text-align: center;
+
 }
 
 nav ul {
@@ -26,4 +71,63 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+=======
+    border-bottom: 1px solid #eee;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+nav ul a {
+    display: block;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul a:hover {
+    border-bottom: 2px solid #000;
+}
+
+main {
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.card-wrap {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.card {
+    flex: 1;
+    min-height: 300px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.card a {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+}
+
+.hero-wrap {
+    height: 300px;
+    background: url(../img/snow.png) no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000
 }
