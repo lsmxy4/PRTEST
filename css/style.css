@@ -1,8 +1,18 @@
-h2{
-    background: darkblue;
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-p{
-    background: aliceblue;
+a {
+    text-decoration: none;
+    color: #373737
+}
+
+main {
+    margin: auto;
+    max-width: 1200px;
+    padding: 100px 0;
+    background-color: aliceblue;
+    min-height: 100vh;
 }
