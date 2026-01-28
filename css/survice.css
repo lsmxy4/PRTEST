@@ -1,0 +1,59 @@
+section {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.title-wrap {
+    padding: 30px;
+}
+
+section h2 {
+    padding-bottom: 5px;
+}
+
+.txt1 h3::before,
+.txt2 h3:before {
+    content: "▸";
+}
+
+.txt2 {
+    padding: 10px 0;
+}
+
+#container {
+    padding: 20px;
+    height: 50%;
+    background-color: #ff00ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.container h2 {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-wrap a {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 2px;
+}
+
+.btn-wrap a.play {
+    background-color: #000;
+}
+
+.btn-wrap a.stop {
+    background-color: rgb(131, 131, 131);
+}
