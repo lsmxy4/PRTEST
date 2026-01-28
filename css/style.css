@@ -23,7 +23,6 @@ main {
 
 header {
     text-align: center;
-
 }
 
 nav ul {
@@ -31,7 +30,6 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
-=======
     border-bottom: 1px solid #eee;
 }
 
