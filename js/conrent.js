@@ -1,5 +1,6 @@
 var swiper = new Swiper(".callback-slider", {
     loop: true,
+    autoplay: true,
     pagination: {
         el: ".swiper-pagination",
     },
@@ -7,7 +8,8 @@ var swiper = new Swiper(".callback-slider", {
 
 var linkSwiper = new Swiper(".link-slider", {
     loop:true,
+    autoplay: true,
     pagination: {
-         el: ".swiper-pagination",
+         el: ".link-slider .swiper-pagination",
     },
 });
