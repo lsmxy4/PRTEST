@@ -5,6 +5,34 @@ section {
     overflow: hidden;
 }
 
+.sec-img {
+    height: 300px;
+}
+
+.imgSwiper {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgSwiper .s01 {
+    background-image: url(../img/s-bg1.png);
+}
+
+.imgSwiper .s02 {
+    background-image: url(../img/s-bg2.png);
+}
+
+.imgSwiper .s03 {
+    background-image: url(../img/s-bg3.png);
+}
+
+.imgSwiper .s04 {
+    background-image: url(../img/s-bg4.png);
+}
+
+
 .title-wrap {
     padding: 30px;
 }

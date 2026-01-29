@@ -30,3 +30,16 @@ playBtn.addEventListener('click', (e) => {
         play = setInterval(bgChange, 1000);
     }
 });
+
+var swiper = new Swiper(".imgSwiper", {
+    loop: true,
+    // autoplay: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
