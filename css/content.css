@@ -49,10 +49,16 @@ main h1 {
     text-align: center;
 }
 
+.link-slider .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .link-slider .swiper-slide a {
     font-size: 18px;
     font-weight: 600;
+    text-align: center;
     text-decoration: none;
     color: #000;
 }
