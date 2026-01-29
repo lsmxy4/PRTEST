@@ -1,5 +1,5 @@
 const container = document.querySelector('#container');
-const title = document.querySelector('#container h1');
+const title = document.querySelector('#container h2');
 const playBtn = document.querySelector('.btn-wrap a.play');
 const stopBtn = document.querySelector('.btn-wrap a.stop');
 
@@ -30,3 +30,16 @@ playBtn.addEventListener('click', (e) => {
         play = setInterval(bgChange, 1000);
     }
 });
+
+var swiper = new Swiper(".imgSwiper", {
+    loop: true,
+    // autoplay: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
