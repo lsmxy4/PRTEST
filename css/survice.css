@@ -105,5 +105,20 @@ section h2 {
 }
 
 .sliderSite-wrap {
-    margin: 40px 20px;
+    margin: 10px 20px;
+}
+
+.sliderSite-wrap p {
+    margin-bottom: 20px;
+}
+
+.sliderSite-wrap a {
+    width: 100px;
+    margin-left: 200px;
+}
+
+.sliderSite-wrap a img {
+    width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
 }

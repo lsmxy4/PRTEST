@@ -1,5 +1,5 @@
 const container = document.querySelector('#container');
-const title = document.querySelector('#container h1');
+const title = document.querySelector('#container h2');
 const playBtn = document.querySelector('.btn-wrap a.play');
 const stopBtn = document.querySelector('.btn-wrap a.stop');
 
